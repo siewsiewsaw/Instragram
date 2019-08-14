@@ -1,0 +1,29 @@
+.listheader{
+    padding: 30px;  
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background: #007CBA;
+    color: white;
+    font-size: 15px;
+  }
+
+  .flexcontainer {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flexcontainer .box {
+    width: 50%;
+    margin: 50px;
+    text-align: center;
+  }
+
+
+.imgcontainer {
+    float: left;
+    width: 25%; 
+    padding: 2px; 
+    height:70%;
+    margin-left: 30px;
+}
